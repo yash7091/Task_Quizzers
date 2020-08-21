@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".login").hide();
+			$(".register_li").addClass("active");
+
+			$(".login_li").click(function(){
+			  $(this).addClass("active");
+			  $(".register_li").removeClass("active");
+			  $(".login").show();
+			   $(".register").hide();
+			})
+
+			$(".register_li").click(function(){
+			  $(this).addClass("active");
+			  $(".login_li").removeClass("active");
+			  $(".register").show();
+			   $(".login").hide();
+			})
+		});
+    </script>
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="body">
+            <img src="./WhatsApp Image 2020-08-20 at 22.49.16.jpeg" alt="" srcset="">
+            <h2>Welecome</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras da </p>
+        </div>
+        <div class="right">
+          <div class="tabs">
+            <ul>
+              <li class="register_li">Login</li>
+              <li class="login_li">Register</li>
+            </ul>
+          </div>
+          
+          <div class="register">
+              <label>Email/Mobile Number</label>
+            
+            <div class="input_field">
+              <input type="text" placeholder="E-mail" class="input">
+            </div>
+
+            <label>Password</label>
+            <div class="input_field">
+              <input type="password" placeholder="Password" class="input">
+     
+            </div>
+            <p class="forgot">Forgot Password</p>
+            <div class="btn"><a href="#">Login</a></div>
+            <p class="dummy">Not a member yet?<span class="dum">Register</span></p>
+          </div>
+          
+          <div class="login">
+             <label>Email/Mobile Number</label>
+            
+            <div class="input_field">
+              <input type="text" placeholder="E-mail" class="input">
+            </div>
+
+            <label>Password</label>
+            <div class="input_field">
+              <input type="password" placeholder="Password" class="input">
+            </div>
+            <label>Mobile Number</label>
+            <div class="input_field">
+              <input type="int" placeholder="Password" class="input">
+            </div>
+            <div class="btn"><a href="#">Register</a></div>
+          </div>
+          
+        </div>
+      </div>
+ 
+</body>
+</html>

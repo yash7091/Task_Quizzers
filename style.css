@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+body{
+    background-color: #192b41;
+}
+  .right{
+      float: right;
+    height: 80vh;
+     margin-top: 60px ;
+  }
+.body{
+    float: left;
+    padding-top: 100px ;
+    padding-left:80px ;
+    width: 50%;
+    color: #fff;
+}
+.body p{
+    color: #8494a4;
+}
+.body img{
+    height: 200px;
+}
+  
+  
+  .wrapper .right{
+    width: 37%;
+    height: 100%;
+    padding: 30px;
+    border-right:20px ;
+
+  }
+  .dummy{
+      text-align: center;
+      border-left: -20px;
+      color: #babcbe;
+      font-size: 12px;
+  }
+  .dum{
+
+    color: #445461;
+  }
+  .forgot{
+      float: right;
+      color: #445461;
+    text-align: right;
+  font-size:12px;
+    margin-top:-40px ;
+    }
+ 
+  .wrapper  img{
+    display: block;
+    width: 220px;
+    margin: 25px auto 0;
+  }
+  
+  .wrapper .right{
+    background: #fff;
+    height: 80vh;
+    border-radius:8px;
+    margin-right:40px ;
+  }
+  
+  .wrapper .right .tabs ul{
+    text-align: center;
+  }
+  
+  .wrapper .right .tabs ul li{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #494f57;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  
+  .wrapper .right .tabs ul li.active{
+    border-bottom: 2px solid #494f57;
+  }
+  
+  .wrapper .right .register,
+  .wrapper .right .login{
+    margin-top: 20px;
+  }
+  
+  .wrapper .right .input_field{
+    margin-bottom: 15px;
+  }
+  
+  .wrapper .right .input_field .input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    font-size: 12px;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid #8494a4;
+}
+  
+  .wrapper .right .btn{
+    margin-top: 20px;
+    background: #445567;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 20px;
+    width: 40%;
+    margin-top: 120px;
+    margin-left:110px ;
+    margin-bottom: -50px;
+    
+}
+  
+  .wrapper .right .btn a{
+    color: #fff;
+    display: block;
+    font-size: 14px;
+  }
